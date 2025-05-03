@@ -530,6 +530,8 @@ img {
 }
 
 .footer-form {
+  display: flex;
+  gap: 16px;
 }
 .footer-label {
 }
