@@ -531,7 +531,7 @@ img {
 
 .footer-form {
   display: flex;
-  gap: 16px;
+  gap: 24px;
 }
 .footer-label {
 }
@@ -543,8 +543,17 @@ img {
   height: 40px;
   padding: 8px 16px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
   /* margin: 0 auto; */
 }
+
+.footer-input::placeholder {
+  color: #fff;
+}
+
 .footer-btn {
   /* margin: 0 auto; */
   font-weight: 500;
@@ -561,13 +570,13 @@ img {
   font-family: inherit;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding: 8px 24px;
-  /* width: 165px; */
+  min-width: 165px;
   /* height: 40px; */
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+  justify-content: center;
+  /* gap: 16px; */
 }
 
 .footer-btn:hover,
@@ -576,6 +585,7 @@ img {
 }
 .footer-btn-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /* #endregion Footer */
